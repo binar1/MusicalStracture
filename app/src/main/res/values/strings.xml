@@ -1,0 +1,17 @@
+<resources>
+    Musics
+    <string name="app_name">MusicalStracture</string>
+    <string name="music">Musics</string>
+    <string name="album">Album</string>
+    <string name="favourite">Favourite</string>
+    <string name="payment">Payment</string>
+    <string name="songname1">Shap Of You</string>Ed Sheeran
+    <string name="singername1">Ed Sheeran</string>
+    <string name="message">not have favourite songs</string>
+    <string name="pay"> A significant portion of the Android Pay API\'s functionality is provided as part of Google Play Services, the core services for developing on Android.</string>
+    <string name="paymessage">Each request from your app and each response from the Google server encapsulates the necessary payment data in a Java object. In the simplest terms, the flow looks like this:</string>
+    <string name="paymessage1">1-When the user taps the Android Pay button, the app requests MaskedWallet information. The Masked Wallet contains partial payment information such as billing address, shipping address, masked backing payment instrument number, and cart items.
+    2-Google returns a MaskedWallet response containing the user\'s wallet information. The app uses this information to present order review screens and other options. For example, the user might want to change their selected payment instrument or add a new shipping address.
+    3-To complete the order, the app requests the FullWallet.
+    4-Google passes back FullWallet information, which includes the detailed Android Pay payment credentials for the transaction.</string>
+</resources>

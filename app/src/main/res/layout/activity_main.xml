@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.developer.musicalstracture.MainActivity">
+    <ImageView
+    android:id="@+id/musicImage"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/music"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music"
+        android:textColor="#f6f6f6"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/musicImage"
+        android:id="@+id/textView3" />
+    <ImageView
+        android:id="@+id/albumImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/album"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="240dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/album"
+        android:textColor="#f6f6f6"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="240dp"
+        android:layout_below="@+id/albumImage"
+        android:id="@+id/textView" />
+    <ImageView
+        android:id="@+id/lovedImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lovedsong"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="60dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favourite"
+        android:textColor="#f6f6f6"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/lovedImage"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+         />
+    <ImageView
+        android:id="@+id/paymentImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/payment"
+        android:layout_alignTop="@+id/lovedImage"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment"
+        android:textColor="#f6f6f6"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/paymentImage"
+        android:layout_alignStart="@+id/paymentImage" />
+
+
+
+
+
+</RelativeLayout>
